@@ -1,4 +1,17 @@
+import type { Metadata } from "next";
 import Image from "next/image";
+import { siteConfig } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description:
+    "Learn about E. Harrington Appraisals Jewelry Studio — exceptional craftsmanship, ethically sourced gemstones, and timeless jewelry designs trusted for generations.",
+  openGraph: {
+    title: `About Us | ${siteConfig.shortName}`,
+    description:
+      "Exceptional artistry, ethically sourced gemstones, and distinguished sophistication from E. Harrington Jewelry Studio.",
+  },
+};
 
 export default function AboutPage() {
   return (
@@ -19,7 +32,7 @@ export default function AboutPage() {
 
       <div className="prose prose-lg max-w-none text-charcoal-600 space-y-6">
         <p className="text-xl font-serif text-charcoal-800 italic text-center">
-          Delivering quality and service through the years...
+          {siteConfig.tagline}
         </p>
         <p>
           E. Harrington Appraisals Jewelry Studio is a private jewelry atelier

@@ -2,6 +2,7 @@
 
 import { FormEvent, useState } from "react";
 import { Phone, Mail, MapPin } from "lucide-react";
+import { siteConfig } from "@/lib/site";
 
 export default function ContactPage() {
   const [submitted, setSubmitted] = useState(false);
@@ -26,7 +27,7 @@ export default function ContactPage() {
           <div className="flex items-start gap-4">
             <Phone className="w-5 h-5 text-gold-600 mt-1" />
             <div>
-              <h3 className="font-medium text-charcoal-900 mb-1">Phone</h3>
+              <h2 className="font-medium text-charcoal-900 mb-1">Phone</h2>
               <a href="tel:2087021387" className="block text-charcoal-600 hover:text-gold-600">208 702 1387</a>
               <a href="tel:3036228862" className="block text-charcoal-600 hover:text-gold-600">303 622 8862</a>
             </div>
@@ -34,16 +35,16 @@ export default function ContactPage() {
           <div className="flex items-start gap-4">
             <Mail className="w-5 h-5 text-gold-600 mt-1" />
             <div>
-              <h3 className="font-medium text-charcoal-900 mb-1">Email</h3>
-              <a href="mailto:info@eha-jewelry.com" className="text-charcoal-600 hover:text-gold-600">
-                info@eha-jewelry.com
+              <h2 className="font-medium text-charcoal-900 mb-1">Email</h2>
+              <a href={`mailto:${siteConfig.email}`} className="text-charcoal-600 hover:text-gold-600">
+                {siteConfig.email}
               </a>
             </div>
           </div>
           <div className="flex items-start gap-4">
             <MapPin className="w-5 h-5 text-gold-600 mt-1" />
             <div>
-              <h3 className="font-medium text-charcoal-900 mb-1">Private Studio</h3>
+              <h2 className="font-medium text-charcoal-900 mb-1">Private Studio</h2>
               <p className="text-charcoal-600">
                 By appointment only. Contact us to schedule a private viewing.
               </p>

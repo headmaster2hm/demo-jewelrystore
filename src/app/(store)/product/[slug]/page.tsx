@@ -1,12 +1,38 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import AddToCartButton from "@/components/AddToCartButton";
 import { formatPrice } from "@/data/products";
 import { getProductBySlug } from "@/lib/products";
+import { siteConfig } from "@/lib/site";
 
 interface ProductPageProps {
   params: Promise<{ slug: string }>;
+}
+
+export async function generateMetadata({ params }: ProductPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const product = getProductBySlug(slug);
+  if (!product) return { title: "Product Not Found" };
+
+  const description = product.shortDescription || product.description;
+
+  return {
+    title: product.name,
+    description,
+    openGraph: {
+      title: `${product.name} | ${siteConfig.shortName}`,
+      description,
+      images: [{ url: product.image, alt: product.name }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: product.name,
+      description,
+      images: [product.image],
+    },
+  };
 }
 
 export default async function ProductPage({ params }: ProductPageProps) {

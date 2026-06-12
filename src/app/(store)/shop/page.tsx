@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import ShopContent from "./ShopContent";
 import { getAllProducts } from "@/lib/products";
-import { absoluteUrl, siteConfig } from "@/lib/site";
+import { siteConfig } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Shop All Jewelry",
@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     title: `Shop All Jewelry | ${siteConfig.shortName}`,
     description:
       "Browse engagement rings, necklaces, bracelets, and bespoke designs at E. Harrington Jewelry.",
-    images: [{ url: absoluteUrl(siteConfig.ogImage), width: 1200, height: 630, type: "image/jpeg" }],
+    images: [{ url: siteConfig.ogImage, width: 1200, height: 630, type: "image/jpeg" }],
   },
 };
 

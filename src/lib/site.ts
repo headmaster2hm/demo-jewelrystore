@@ -2,11 +2,18 @@ function getSiteUrl(): string {
   if (process.env.NEXT_PUBLIC_SITE_URL) {
     return process.env.NEXT_PUBLIC_SITE_URL.replace(/\/$/, "");
   }
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
   if (process.env.VERCEL_URL) {
     return `https://${process.env.VERCEL_URL}`;
   }
-  return "https://eha-jewelry.com";
+  return "https://hm-demo-jewelrystore.vercel.app";
 }
+
+/** Public CDN image — social crawlers must fetch without auth (Vercel protection blocks self-hosted files). */
+export const OG_IMAGE_URL =
+  "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=1200&h=630&fit=crop&q=85";
 
 export const siteConfig = {
   name: "E. Harrington Appraisals Jewelry Studio",
@@ -29,7 +36,7 @@ export const siteConfig = {
   get url() {
     return getSiteUrl();
   },
-  ogImage: "/og-image.jpg",
+  ogImage: OG_IMAGE_URL,
   email: "info@eha-jewelry.com",
   phone: "208 702 1387",
   locale: "en_US",

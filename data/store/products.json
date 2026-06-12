@@ -1,0 +1,223 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "sku": "AGJS-RG-00412",
+      "name": "Classic Solitaire Engagement Ring",
+      "slug": "classic-solitaire-engagement-ring",
+      "category": "engagement-rings",
+      "price": 4850,
+      "description": "A timeless solitaire engagement ring featuring a brilliant-cut diamond set in 18k white gold. Ethically sourced center stone with exceptional clarity and fire.",
+      "shortDescription": "Brilliant solitaire in 18k white gold with ethically sourced diamond.",
+      "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=800&q=80",
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80"
+      ],
+      "featured": true,
+      "trending": true,
+      "inStock": true,
+      "metal": "18k White Gold",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "2",
+      "sku": "AGJS-RG-00415",
+      "name": "Diamond Marquise Angel Cluster Ring",
+      "slug": "diamond-marquise-angel-cluster-ring",
+      "category": "engagement-rings",
+      "price": 6200,
+      "description": "Our diamond marquise angel cluster ring radiates brilliance, combining elegant marquise stones in a heavenly design of timeless sophistication.",
+      "shortDescription": "Elegant marquise cluster design radiating heavenly brilliance.",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=800&q=80",
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&q=80"
+      ],
+      "featured": true,
+      "trending": true,
+      "inStock": true,
+      "metal": "Platinum",
+      "gemstone": "Marquise Diamond"
+    },
+    {
+      "id": "3",
+      "sku": "AGJS-RG-00414",
+      "name": "Vintage Halo Engagement Ring",
+      "slug": "vintage-halo-engagement-ring",
+      "category": "engagement-rings",
+      "price": 5400,
+      "description": "A romantic vintage-inspired halo ring with a cushion-cut center diamond surrounded by a delicate pavé band in rose gold.",
+      "shortDescription": "Vintage halo design with cushion-cut center stone.",
+      "image": "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1603561591411-07134e71a2a9?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "18k Rose Gold",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "4",
+      "sku": "AGJS-NK-00101",
+      "name": "Sapphire Pendant Necklace",
+      "slug": "sapphire-pendant-necklace",
+      "category": "necklaces",
+      "price": 2850,
+      "description": "An elegant sapphire pendant suspended from a delicate 18k gold chain. Handcrafted with exceptional gemstones for refined everyday luxury.",
+      "shortDescription": "Sapphire pendant on delicate 18k gold chain.",
+      "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=800&q=80",
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80"
+      ],
+      "featured": true,
+      "inStock": true,
+      "metal": "18k Yellow Gold",
+      "gemstone": "Sapphire"
+    },
+    {
+      "id": "5",
+      "sku": "AGJS-NK-00102",
+      "name": "Diamond Tennis Necklace",
+      "slug": "diamond-tennis-necklace",
+      "category": "necklaces",
+      "price": 8900,
+      "description": "A stunning line of graduated diamonds set in platinum, creating a continuous river of light around the neckline.",
+      "shortDescription": "Graduated diamond line necklace in platinum.",
+      "image": "https://images.unsplash.com/photo-1617038260897-41a1a14a9ca0?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617038260897-41a1a14a9ca0?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "Platinum",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "6",
+      "sku": "AGJS-BR-00201",
+      "name": "Gold Bangle Bracelet",
+      "slug": "gold-bangle-bracelet",
+      "category": "bracelets",
+      "price": 1950,
+      "description": "A sleek 18k gold bangle with a polished finish, offering timeless elegance and comfortable everyday wear.",
+      "shortDescription": "Polished 18k gold bangle for everyday elegance.",
+      "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=800&q=80"
+      ],
+      "featured": true,
+      "inStock": true,
+      "metal": "18k Yellow Gold"
+    },
+    {
+      "id": "7",
+      "sku": "AGJS-BR-00202",
+      "name": "Diamond Tennis Bracelet",
+      "slug": "diamond-tennis-bracelet",
+      "category": "bracelets",
+      "price": 7200,
+      "description": "A classic tennis bracelet featuring brilliant-cut diamonds in a secure four-prong setting, crafted for lasting beauty.",
+      "shortDescription": "Classic brilliant-cut diamond tennis bracelet.",
+      "image": "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1573408301185-9146fe634ad0?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "18k White Gold",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "8",
+      "sku": "AGJS-BR-00301",
+      "name": "Diamond Brooch",
+      "slug": "diamond-brooch",
+      "category": "brooches",
+      "price": 3400,
+      "description": "Our diamond brooch showcases exquisite craftsmanship, featuring radiant stones set in refined metalwork, embodying timeless elegance and distinguished sophistication.",
+      "shortDescription": "Radiant diamond brooch with refined metalwork.",
+      "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=800&q=80"
+      ],
+      "featured": true,
+      "inStock": true,
+      "metal": "18k White Gold",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "9",
+      "sku": "AGJS-RG-00417",
+      "name": "Three-Stone Engagement Ring",
+      "slug": "three-stone-engagement-ring",
+      "category": "engagement-rings",
+      "price": 5800,
+      "description": "Symbolizing past, present, and future — three brilliant diamonds set in a classic prong setting on a tapered band.",
+      "shortDescription": "Three brilliant diamonds symbolizing past, present, and future.",
+      "image": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "Platinum",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "10",
+      "sku": "AGJS-RG-00500",
+      "name": "Custom Emerald Cut Ring",
+      "slug": "custom-emerald-cut-ring",
+      "category": "custom",
+      "price": 7500,
+      "description": "A bespoke emerald-cut diamond ring with tapered baguette side stones, crafted to your exact specifications.",
+      "shortDescription": "Bespoke emerald-cut design with baguette accents.",
+      "image": "https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1584302179602-e4c3d3fd629d?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "Platinum",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "11",
+      "sku": "AGJS-RG-00501",
+      "name": "Custom Art Deco Ring",
+      "slug": "custom-art-deco-ring",
+      "category": "custom",
+      "price": 6800,
+      "description": "An Art Deco inspired custom ring with geometric diamond patterns and milgrain detailing in white gold.",
+      "shortDescription": "Art Deco inspired geometric design with milgrain detail.",
+      "image": "https://images.unsplash.com/photo-1617038260897-41a1a14a9ca0?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1617038260897-41a1a14a9ca0?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "18k White Gold",
+      "gemstone": "Diamond"
+    },
+    {
+      "id": "12",
+      "sku": "AGJS-RG-00502",
+      "name": "Custom Rose Gold Band",
+      "slug": "custom-rose-gold-band",
+      "category": "custom",
+      "price": 2200,
+      "description": "A custom hand-forged rose gold band with a unique hammered texture, perfect as a wedding band or stackable piece.",
+      "shortDescription": "Hand-forged rose gold with unique hammered texture.",
+      "image": "https://images.unsplash.com/photo-1602751584552-8ba73aad10e7?w=800&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1602751584552-8ba73aad10e7?w=800&q=80"
+      ],
+      "trending": true,
+      "inStock": true,
+      "metal": "18k Rose Gold"
+    }
+  ]
+}

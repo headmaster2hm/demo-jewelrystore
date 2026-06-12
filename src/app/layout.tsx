@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Outfit } from "next/font/google";
 import "./globals.css";
-import { siteConfig } from "@/lib/site";
+import { absoluteUrl, siteConfig } from "@/lib/site";
 
 const cormorant = Cormorant_Garamond({
   subsets: ["latin"],
@@ -14,6 +14,8 @@ const outfit = Outfit({
   weight: ["300", "400", "500", "600"],
   variable: "--font-outfit",
 });
+
+const ogImageUrl = absoluteUrl(siteConfig.ogImage);
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -39,10 +41,12 @@ export const metadata: Metadata = {
     description: siteConfig.description,
     images: [
       {
-        url: "/opengraph-image",
+        url: ogImageUrl,
+        secureUrl: ogImageUrl,
         width: 1200,
         height: 630,
-        alt: `${siteConfig.name} — fine jewelry, engagement rings & custom designs`,
+        type: "image/jpeg",
+        alt: `${siteConfig.shortName} — engagement rings, necklaces & fine jewelry`,
       },
     ],
   },
@@ -50,7 +54,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: siteConfig.name,
     description: siteConfig.description,
-    images: ["/twitter-image"],
+    images: [ogImageUrl],
   },
   robots: {
     index: true,
